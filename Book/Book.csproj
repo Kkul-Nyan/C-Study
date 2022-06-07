@@ -8,11 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="ch05\" />
     <Folder Include="ch07\" />
-    <Folder Include="ch05\" />
-    <Folder Include="ch06\" />
-    <Folder Include="ch05\" />
-    <Folder Include="ch06\" />
     <Folder Include="ch08\" />
     <Folder Include="ch09\" />
     <Folder Include="ch10\" />

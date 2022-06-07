@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * 내용 : 메서드 오버로딩 실습하기 교재 p275
  * 
  * 메서드 오버로딩 (Overloading)
- * - 같은 이름의 메서드를 매개벼수(Parameter)로 구분한 메서드
+ * - 같은 이름의 메서드를 매개변수(Parameter)로 구분한 메서드
  * - 메서드 반환타입은 오법로딩에 영향을 미치지 않는다.
  */
 

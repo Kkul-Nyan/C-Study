@@ -8,7 +8,7 @@ namespace Book.ch04
 {
     internal class p189
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("while반복문과 괄호사용");
             int i = 10;
