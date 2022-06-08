@@ -8,7 +8,7 @@ namespace Book.ch05
 {
     internal class p214
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("리스트 요소 추가");
             List<int> list = new List<int>();
@@ -34,8 +34,17 @@ namespace Book.ch05
             {
                 Console.WriteLine($" animals{i} item : " + animals[i]);
             }
-            
 
+            Console.WriteLine();
+            Console.WriteLine("List 요소 제거");
+            List<int> listA =new List<int>()
+            {
+                52,273,32,64
+            };
+
+            listA.Remove(52);
+            foreach (var item in listA)
+            { Console.WriteLine("Count : " + listA.Count + "\titem " + item); }
         }
     }
 }
