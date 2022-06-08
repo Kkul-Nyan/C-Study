@@ -17,7 +17,7 @@ namespace Book.ch05
 
     internal class p225
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("인스턴스 변수 선언");
 

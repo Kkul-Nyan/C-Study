@@ -19,5 +19,7 @@ namespace Book.ch05
 
     internal class Product
     {
+        internal string name;
+        internal int price;
     }
 }

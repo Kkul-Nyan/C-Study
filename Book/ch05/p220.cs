@@ -10,7 +10,7 @@ namespace Book.ch05
     {
         class FirstClass
         {
-            static void Main(string[] args)
+            static void Main1(string[] args)
             {
                 Console.WriteLine("클래스 내부에 클래스 생성");
             }
