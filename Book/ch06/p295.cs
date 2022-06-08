@@ -48,7 +48,7 @@ namespace Book.ch06
                 else { this.height = Math.Abs(height); }
             }
 
-            static void Main(string[] args)
+            static void Main1(string[] args)
             {
 
                 Console.WriteLine("BOX클래스" + "\n" + "\n");
