@@ -8,5 +8,16 @@ namespace Book.ch05
 {
     internal class p223
     {
+        static void Main1(string[] args)
+        {
+
+            Console.WriteLine("클래스 파일 빠르게 생성하기");
+            Product product = new Product();
+
+        }
+    }
+
+    internal class Product
+    {
     }
 }
