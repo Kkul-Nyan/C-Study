@@ -38,7 +38,33 @@ namespace Ch05
             bmw.color = "검정색";
             bmw.speed = 0;
 
+            //Account 객체생성
+            Account kb = new Account();
+            //초기화
+            kb.bank = "국민은행";
+            kb.id = "123-12-1234";
+            kb.name = "김유신";
+            kb.balance = 10000;
 
+            kb.Deposit(25000);
+            kb.Withdraw(5000);
+            kb.Show();
+
+            //nh 객체생성
+            Account nh = new Account();
+            nh.bank = "농협은행";
+            nh.id = "321-12-4321";
+            nh.name = "김춘추";
+            nh.balance = 30000;
+
+            nh.Deposit(70000);
+            nh.Withdraw(20000);
+            nh.Show();
+
+
+
+
+                
           
 
 
