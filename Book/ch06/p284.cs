@@ -34,7 +34,7 @@ namespace Book.ch06
                 Console.WriteLine("========================================");
             }
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Product productA = new Product("감자", 2000);
             Product productB = new Product("고구마", 3000);

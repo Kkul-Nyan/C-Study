@@ -15,7 +15,7 @@ namespace Book.ch06
                 private Hidden() { }
             }
 
-            static void Main(string[] args)
+            static void Main1(string[] args)
             {
                 // Hidden hidden = new Hidden(); 같은 내부클라스도 상위클라스에서 땡기는것도 아니므로 접근할수가없다.
             }
