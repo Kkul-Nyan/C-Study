@@ -15,7 +15,7 @@ namespace Ch05
 {
     internal class _2_Encaps
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
            Account kb = new Account("국민은행", "123-12-1234", "김유신", 1000);
      
