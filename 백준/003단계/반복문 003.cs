@@ -8,7 +8,7 @@ namespace 백준._003단계
 {
     internal class 반복문_003
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int T = int.Parse(Console.ReadLine());
             

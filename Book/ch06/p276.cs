@@ -44,7 +44,7 @@ namespace Book.ch06
             }
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //int
             Console.WriteLine(Abs(52));
