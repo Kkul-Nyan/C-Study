@@ -42,15 +42,16 @@ namespace Book.ch07
             {
                 new Dog(), new Cat(), new Dog(), new Dog(),
                 new Cat(), new Cat(), new Dog(), new Cat()
-            }
-            ;
+            };
+ 
+            
             foreach (var item in Animals)
             {
                 item.Eat();
                 item.Sleep();
 
-                if (item is Dog) { }
-                if (item is Cat) { }            
+                if (item is Dog) { Console.WriteLine("참"); }
+                if (item is Cat) { Console.WriteLine("거짓ㄴㄴㄴ"); }            
                 
 
 
