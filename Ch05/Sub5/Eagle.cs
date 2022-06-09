@@ -9,14 +9,17 @@ namespace Ch05.Sub5
     internal class Eagle : Animal
     {
 
-    public void Move()
+        public void Move()
         {
             Console.WriteLine("Eagle Fly...");
         }
-    public override void Move1()
+        public override void Move1()
         {
             Console.WriteLine("Eagle Fly...");
         }
-
+        public void Hunt()
+        {
+            Console.WriteLine("Eagle Hunt...");
+        }
     }
 }

@@ -16,5 +16,9 @@ namespace Ch05.Sub5
         {
             Console.WriteLine("Tiger Run...");
         }
+        public void Hunt()
+        {
+            Console.WriteLine("Tiger Hunt...");
+        }
     }
 }

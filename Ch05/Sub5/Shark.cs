@@ -17,7 +17,10 @@ namespace Ch05.Sub5
         {
             Console.WriteLine("Shark Swim...");
         }
-
+        public void Hunt()
+        {
+            Console.WriteLine("Shark Hunt...");
+        }
 
     }
 }
