@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ch05.Sub4;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,10 @@ using System.Threading.Tasks;
  * 날짜 : 2022/06/09
  * 이름 : 정현기
  * 내용 : 클래스 상속 실습하기 교재 p331
+ *
+ * 상속
+ *  - 기존 클래스의 속성과 기능을 그대로 파생 클래스에 물려줘서 클래스를 확장하는 문법
+ *  - 공통적인 내용을 부모클래스에 두고 자식 클래스에서 상속 받아 일관성있고 효율적인 프로그래밍 수행
  */
 
 namespace Ch05
@@ -60,7 +65,26 @@ namespace Ch05
             Console.WriteLine("c1 Plus : "+ c1.Plus());
             Console.WriteLine("c1 Minus : " + c1.Minus());
             Console.WriteLine("c2 Plus : " + c2.Plus()); 
-            Console.WriteLine("c2 Minus : " + c2.Minus()); 
+            Console.WriteLine("c2 Minus : " + c2.Minus());
+
+            //Car 상속객체 생성
+            Sedan sedan = new Sedan("그랜저", "검정색", 0, 2000);
+            Truck truck = new Truck("봉고", "흰색", 0, 1);
+
+            sedan.SpeedUp(40);
+            sedan.Show();
+
+            truck.SpeedUp(70);
+            truck.Show();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            //Account 상속 객체 생성
+            StockAccount kb = new StockAccount("KB증권", "123-12-1234", "김유신", 1000, "삼성", 0, 0);
+            kb.Deposit(1000000);
+            kb.buy(10, 70000);
+            kb.sell(5, 75000);
+            kb.Show();
         }
     }
 }
