@@ -4,15 +4,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ch05.Sub4
+namespace Ch05.Sub3
 {
     internal class Car
     {
-        //속성(필드-변수) //private가 아닌 protected는 상속을 위해 바꿔둔것.
-        protected string name;
-        protected string color;
-        protected int speed;
-        protected static int count;
+        //속성(필드-변수)
+        private string name;
+        private string color;
+        private int speed;
+        private static int count;
+        //Getter, Setter -->C#에서는 프로퍼티
+        public string Name { get {return name;} set { name = value; }}
+        public string Color { get {return color;} set {color = value;} }
+        public int Speed 
+        { 
+            get 
+            {
+                return speed;
+            }
+            set 
+            {
+                if (value < 0)
+                {
+                    speed = 0;
+                }
+                else if (value > 300)
+                {
+                    value = 300;
+                }
+                else
+                {
+                    speed = value;
+                }
+            }
+        }
+
 
         //생성자
         public Car(string name, string color, int speed)
