@@ -34,7 +34,7 @@ namespace Book.ch06
 
       class Program
       {
-            static void Main11(string[] args)
+            static void Main1(string[] args)
             {
                 Console.WriteLine(Fibonicci.Get(40));
                 Console.WriteLine(Fibonicci.Get(100));

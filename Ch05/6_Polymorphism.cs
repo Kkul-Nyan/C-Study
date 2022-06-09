@@ -18,7 +18,7 @@ namespace Ch05
 {
     internal class _6_Polymorphism
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //객체생성
             Tiger tiger = new Tiger();
