@@ -8,5 +8,44 @@ namespace Book.ch07
 {
     internal class p366
     {
+        class Animal
+        {
+            public virtual void Eat()
+            {
+                Console.WriteLine("냠냠 먹습니다");
+            }
+        }
+
+        class Dog : Animal
+        {
+            public new void Eat()
+            {
+                Console.WriteLine("강아지 사료를 먹습니다");
+            }
+        }
+
+        class Cat : Animal
+        {
+            public override void Eat()
+            {
+                Console.WriteLine("고양이 사료를 먹습니다");
+            }
+        }
+
+        static void Main1(string[] args)
+        {
+            Console.WriteLine("new 키워드를 사용한 경우 - Dog 하이딩, Cat 오버라이드 ");
+
+            List<Animal> Animals = new List<Animal>()
+            {
+                new Dog(), new Cat(), new Cat(), new Dog(),
+                new Dog(), new Cat(), new Dog(), new Dog()
+            };
+
+            foreach (var item in Animals)
+            {
+                item.Eat();
+            }
+        }
     }
 }

@@ -35,7 +35,7 @@ namespace Book.ch07
         {
             public void Meow() { Console.WriteLine("냥냥 웁니다."); }
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("is 키워드");
             List<Animal> Animals = new List<Animal>()
@@ -51,7 +51,7 @@ namespace Book.ch07
                 item.Sleep();
 
                 if (item is Dog) { Console.WriteLine("참"); }
-                if (item is Cat) { Console.WriteLine("거짓ㄴㄴㄴ"); }            
+                if (item is Cat) { Console.WriteLine("거짓"); }            
                 
 
 
