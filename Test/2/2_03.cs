@@ -12,7 +12,7 @@ namespace Test._2
 {
     internal class _2_03
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             //(1,10자리바꾸고, 2,9자리바꾸고 총5번)
