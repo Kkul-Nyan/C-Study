@@ -10,18 +10,11 @@ namespace 백준._003단계
     {
         static void Main1(string[] args)
         {
-            int T = int.Parse(Console.ReadLine());
-            
-
-            for(int i = 0; i < T; i++)
-            {
-                string[] S = Console.ReadLine().Split();
-                int A = int.Parse(S[0]);
-                int B = int.Parse(S[1]);
-                int C = A + B;
-                Console.WriteLine(C);
-            }
-
+            string[] A = Console.ReadLine().Split();
+            int[] B = Array.ConvertAll(A, int.Parse);
+            Console.WriteLine(B[0]);
+            Console.WriteLine(B[1]);
+            Console.WriteLine(B[2]);
         }
     }
 }
