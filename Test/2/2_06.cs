@@ -30,7 +30,7 @@ namespace Test._2
         {
             return x + y;
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
 

@@ -1,27 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace 백준._003단계
-{
+
     internal class 반복문_004
     {
+        private static Dictionary<int,long> memo = new Dictionary<int,long>();
         static void Main1(string[] args)
         {
             int T = int.Parse(Console.ReadLine());
-
+            int[] Num = new int[T];
 
             for (int i = 0; i < T; i++)
             {
-                string[] S = Console.ReadLine().Split();
-                int A = int.Parse(S[0]);
-                int B = int.Parse(S[1]);
-                int C = A + B;
-                Console.WriteLine(C);
+                string[] A = Console.ReadLine().Split();
+                Console.WriteLine(int.Parse(A[0]) + int.Parse(A[1]));
             }
-
         }
     }
-}
