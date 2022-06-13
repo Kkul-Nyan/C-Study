@@ -42,7 +42,7 @@ namespace Book.ch07
             }
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("new 키워드를 사용한 경우 - Dog 하이딩, Cat 오버라이드 ");
 

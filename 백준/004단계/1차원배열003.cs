@@ -8,6 +8,8 @@ namespace 백준._004단계
 {
     internal class _1차원배열003
     {
+
+
         static void Main(string[] args)
         {
             //A*B*C=D
@@ -21,8 +23,16 @@ namespace 백준._004단계
             int C = int.Parse(num3);
             //D의 숫자를 나누어서 배열로 만들기
             Console.Clear();
+            
             int D = A * B * C;
-            string Total = D.ToString();
+            string total = D.ToString();
+            string[] Total = total.Split('\u002C');
+            Console.WriteLine(D);
+
+            foreach(string item in Total)
+            { 
+                Console.WriteLine(item+); 
+            }
             //D 배열을 카운트
             
 

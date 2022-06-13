@@ -20,7 +20,7 @@ namespace Ch06
 {
     internal class _2_interface
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //인터페이스로 공통 클래스 구조설계
             IRemoteControl lg = new LGRemocon();
@@ -45,10 +45,10 @@ namespace Ch06
             
             //인터페이스를 활용한 결합도 완화
             Bulb bulb = new Bulb();
-            ISocket cable = new Cable(bulb); //케이블안에서 생성자로 bulb를 만들었으니까 초기화 해줘야한다.
+            ISocket socket = new Cable(bulb); //케이블안에서 생성자로 bulb를 만들었으니까 초기화 해줘야한다.
 
-            ISocket.SwitchOn();
-            ISocket.SwitchOff();
+            socket.SwitchOn();
+            socket.SwitchOff();
 
         }
     }

@@ -8,7 +8,7 @@ namespace 백준._004단계
 {
     internal class _1차원배열002
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
 
