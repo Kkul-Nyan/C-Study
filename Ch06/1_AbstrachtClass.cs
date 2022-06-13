@@ -18,7 +18,7 @@ namespace Ch06
 
     internal class _1_AbstrachtClass
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Car truck09 = new Truck ("포터09","검정색",0,1400);
             Sedan sedan = new Sedan("그렌저", "검정색", 0, 2000);
