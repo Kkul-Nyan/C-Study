@@ -14,7 +14,7 @@ namespace Ch03
 {
     internal class _5_Array
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             ///////////////////////
             ///배열기본
