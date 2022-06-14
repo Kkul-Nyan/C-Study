@@ -83,7 +83,7 @@ namespace Ch06
 
             string result2 = now.ToString("yyyy-mm-dd hh:mm:ss");
             Console.WriteLine("result2 : " + result2);
-
+                
         }
     }
 }

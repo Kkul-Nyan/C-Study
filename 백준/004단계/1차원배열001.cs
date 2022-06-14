@@ -15,7 +15,7 @@ namespace 백준._004단계
             string[] B = Console.ReadLine().Split();
             int[] b = Array.ConvertAll(B, int.Parse);
 
-            for (int i = 0; i < a - 1; i++)
+            for (int i = 0; i < b.Length-1; i++)
             {
                 for (int j = i + 1; j < a; j++)
                 {
@@ -28,7 +28,7 @@ namespace 백준._004단계
                 }
 
             }
-            Console.WriteLine(b[0] + " " + b[a - 1]);
+            Console.WriteLine(b[0] + " " + b[b.Length-1]);
         }
     }
 }

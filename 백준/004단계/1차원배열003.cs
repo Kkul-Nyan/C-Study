@@ -10,7 +10,7 @@ namespace 백준._004단계
     {
 
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //A*B*C=D
             //D값에 0~9까지 쓰인 숫자 카운드 D= 1000 -> 3 1 , D=1135423 ->0 2 1 2 1 1

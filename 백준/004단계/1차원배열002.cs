@@ -10,8 +10,6 @@ namespace 백준._004단계
     {
         static void Main1(string[] args)
         {
-
-
             int a1 = int.Parse(Console.ReadLine());
             int a2 = int.Parse(Console.ReadLine());
             int a3 = int.Parse(Console.ReadLine());
@@ -21,25 +19,33 @@ namespace 백준._004단계
             int a7 = int.Parse(Console.ReadLine());
             int a8 = int.Parse(Console.ReadLine());
             int a9 = int.Parse(Console.ReadLine());
-
-            int[] nums = { a1, a2, a3, a4, a5, a6, a7, a8, a9 };
-            for (int i = 0; i < nums.Length - 1; i++)
+            int[] A = { a1, a2, a3, a4, a5, a6, a7, a8, a9 };
+            int[] B = new int[A.Length];
+            for (int f = 0; f < A.Length; f++)
             {
-                for (int j = i + 1; j < nums.Length; j++)
+                B[f] = A[f];
+            }
+            for (int i = 0; i < B.Length - 1; i++)
+            {
+                for (int j = i + 1; j < B.Length; j++)
                 {
-                    if (nums[i] > nums[j])
+                    if (B[i] > B[j])
                     {
-                        int tram = nums[j];
-                        nums[j] = nums[i];
-                        nums[i] = tram;
-
+                        int tram = B[j];
+                        B[j] = B[i];
+                        B[i] = tram;
                     }
                 }
             }
-            Console.WriteLine(nums[8]);
-            Console.WriteLine("8");
-
-
+            Console.WriteLine(B[8]);
+            int D = B[8];
+            for (int p = 0; p < A.Length; p++)
+            {  
+                if (A[p] == D)
+                {
+                    Console.WriteLine(p+1);
+                }
+            }
         }
     }
 }
