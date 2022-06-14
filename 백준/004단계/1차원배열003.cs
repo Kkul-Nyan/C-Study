@@ -23,6 +23,8 @@ namespace 백준._004단계
             int C = int.Parse(numC);
             //D의 숫자를 나누어서 배열로 만들기
             
+            Console.Clear();
+
             int D = A * B * C;
             string total = D.ToString();
             int[] Total = new int[total.Length];
@@ -32,14 +34,6 @@ namespace 백준._004단계
                 Total[i] = D % 10;
                  D /= 10;             
             }
-
-            foreach(int item in Total)
-            {
-                Console.Write(item);
-
-            }
-            Console.WriteLine();
-            Console.WriteLine();
 
             //12345
             int num0 = 0;
@@ -51,12 +45,12 @@ namespace 백준._004단계
             int num6 = 0;    
             int num7 = 0;    
             int num8 = 0;    
-            int num9 = 0;    
-                
+            int num9 = 0;
 
-            for (int k =0; k< Total.Length; k++)
+
+            for (int k = 0; k < Total.Length; k++)
             {
-                switch(Total[k])
+                switch (Total[k])
                 {
                     case 0:
                         num0++;
@@ -89,27 +83,14 @@ namespace 백준._004단계
                         num9++;
                         break;
                 }
-
-                Console.WriteLine(num5);
+            }
               
                 int[] num = { num0, num1, num2, num3, num4, num5, num6, num7, num8, num9 };
-
+     
                 for (int h = 0 ; h < 10 ; h++)
                 {
                     Console.WriteLine(num[h]);
                 }
-
-            }
-                                
-
-            
-    
-            //D 배열을 카운트
-            //1,2,3,4,5,6,7,8,9
-            //1,2,3, 2*2,2*3,2*2*2,3*3
-            
-            
-
         }
     }
 }
