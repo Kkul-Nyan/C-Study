@@ -10,28 +10,36 @@ namespace 백준._004단계
     {
         static void Main(string[] args)
         {
-            int num1 = int.Parse(Console.ReadLine());
-            int num2 = int.Parse(Console.ReadLine());
-            int num3 = int.Parse(Console.ReadLine());
-            int num4 = int.Parse(Console.ReadLine());
-            int num5 = int.Parse(Console.ReadLine());
-            int num6 = int.Parse(Console.ReadLine());
-            int num7 = int.Parse(Console.ReadLine());
-            int num8 = int.Parse(Console.ReadLine());
-            int num9 = int.Parse(Console.ReadLine());
-            int num10 = int.Parse(Console.ReadLine());
-            int[] nums = { num1, num2, num3, num4, num5, num6, num7, num8, num9, num10 };
-            int[] K = new int[nums.Length];
-            int Total = 0;
-            
-            for (int i = 0; i < nums.Length; i++)
+            int[] nums = new int[10]; 
+            for(int v = 0; v < 10; v++)
             {
-                K[i] = nums[i] % 42;
-            } 
-            //1 2 3 4 5 6 7 8 9 10
-            //0 1 2 3 4 5 6 7 8 9
+                nums[v] = int.Parse(Console.ReadLine()) % 42;
+            }
+            
+            int F = 1;
 
-  
+            for (int i = 0; i < nums.Length-1; i++)
+            {
+                for(int j = i+1 ; j < nums.Length; j++)
+                {
+                    if( nums[i] > nums[j])
+                    {
+                        int tram = nums[j];
+                        nums[j] = nums[i];
+                        nums[i] = tram;
+                    }
+                }
+            }
+
+            for (int i = 0; i < nums.Length-1; i++)
+            {
+                if (nums[i] != nums[i + 1])
+                {
+                    F++;
+                }
+            }
+            Console.Clear();
+            Console.WriteLine(F);
         }
     }
 }
