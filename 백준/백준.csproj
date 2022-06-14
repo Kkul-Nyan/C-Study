@@ -7,13 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="005단계\" />
-    <Folder Include="008단계\" />
-    <Folder Include="009단계\" />
-    <Folder Include="010단계\" />
-    <Folder Include="007단계\" />
-    <Folder Include="006단계\" />
-  </ItemGroup>
-
 </Project>
