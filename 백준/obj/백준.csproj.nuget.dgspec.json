@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\백준\\백준.csproj": {}
+    "C:\\Users\\1302\\Desktop\\C-Study\\백준\\백준.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\백준\\백준.csproj": {
+    "C:\\Users\\1302\\Desktop\\C-Study\\백준\\백준.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\백준\\백준.csproj",
+        "projectUniqueName": "C:\\Users\\1302\\Desktop\\C-Study\\백준\\백준.csproj",
         "projectName": "백준",
-        "projectPath": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\백준\\백준.csproj",
-        "packagesPath": "C:\\Users\\zmxn5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\백준\\obj\\",
+        "projectPath": "C:\\Users\\1302\\Desktop\\C-Study\\백준\\백준.csproj",
+        "packagesPath": "C:\\Users\\1302\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1302\\Desktop\\C-Study\\백준\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zmxn5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1302\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
