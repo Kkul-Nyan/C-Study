@@ -13,7 +13,7 @@ namespace Ch07
 {
     internal class _5_HashSet
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {   //중복 허용안하고 날려버린다.
             HashSet<int> set = new HashSet<int>();
             set.Add(1);
@@ -55,6 +55,11 @@ namespace Ch07
             foreach(int n in result3)
             { 
                 Console.Write(n+" "); 
+            }
+            Console.WriteLine();  
+            foreach(int n in result3)
+            { 
+                Console.WriteLine("이값일까("+n+") "); 
             }
             Console.WriteLine();
 

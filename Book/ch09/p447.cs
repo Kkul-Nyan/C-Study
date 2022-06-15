@@ -8,7 +8,7 @@ namespace Book.ch09
 {
     internal class p447
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             using (StreamReader reader = new StreamReader(@"C:\test\test.txt"))
             {

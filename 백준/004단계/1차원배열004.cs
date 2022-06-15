@@ -8,7 +8,7 @@ namespace 백준._004단계
 {
     internal class _1차원배열004
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int[] nums = new int[10]; 
             for(int v = 0; v < 10; v++)
