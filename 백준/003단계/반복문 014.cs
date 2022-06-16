@@ -20,22 +20,40 @@ namespace 백준._003단계
             //   -> 6+8=14
             //   -> 8+4=12
             //   -> 4+2= 6 ->2+6
-            if(A>0)
+            if(A>9)
             {
-                int i = 0;
+                int i = 1;
                 while (true)
                 {
-                    int num3 = num1 + num2;
-                    List<int>num = new List<int>();
-                    num[i + 3] = num[i] + num[i + 1];
-                    i ++;
-
-                    if ( num[i + 1] == A / 10 && num[i + 3] == A % 10 )
+                    int num3 = (num1 + num2) % 10;
+                    if (num2 == A / 10 && num3 == A % 10)
                     { break; }
+                    num1 = num2;
+                    num2 = num3;
+                    
+                    i ++;
+                    
                 }
                 Console.WriteLine(i);
             }
-           
+            else
+            {
+                num1 = 0;
+                int j = 1;
+                while (true)
+                {
+                    int num3 = (num1 + num2) % 10;
+
+                    if (num2 == A / 10 && num3 == A % 10)
+                    { break; }
+
+                    num1 = num2;
+                    num2 = num3;
+                    j++;
+
+                }
+                Console.WriteLine(j);
+            }
 
 
 
