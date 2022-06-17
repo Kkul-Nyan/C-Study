@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "백준/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/백준.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/백준.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "백준/1.0.0": {
+      "type": "project",
+      "path": "../백준/백준.csproj",
+      "msbuildProject": "../백준/백준.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "백준 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\1302\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\1302\\Desktop\\C-Study\\백준\\백준.csproj": {
+              "projectPath": "C:\\Users\\1302\\Desktop\\C-Study\\백준\\백준.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

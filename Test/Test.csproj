@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\백준\백준.csproj" />
+  </ItemGroup>
+
 </Project>
