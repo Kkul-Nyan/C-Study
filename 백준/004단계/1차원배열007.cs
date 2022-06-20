@@ -14,11 +14,11 @@ namespace 백준._004단계
             double[] final = new double[T];
             for (int i = 0; i < T; i++)
             {
-                string[] str = Console.ReadLine().Split();
-                double[] points = new double[str.Length];
-                for(int k =0 ; k < str.Length; k++)
+                string[] inputstr = Console.ReadLine().Split();
+                int[] points = new int[inputstr.Length];
+                for(int k =0 ; k < inputstr.Length; k++)
                 {
-                    points[k] = int.Parse(str[k]);
+                    points[k] = int.Parse(inputstr[k]);
                 }
                 double total = 0;
                 for(int j = 1 ; j < points.Length; j++)
@@ -28,7 +28,7 @@ namespace 백준._004단계
                 double average = total / points[0];
 
                 double count = 0;
-                for (int h = 1; h < str.Length; h++)
+                for (int h = 1; h < inputstr.Length; h++)
                 {
                     if (points[h] > average)
                     {
