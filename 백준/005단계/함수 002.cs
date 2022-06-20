@@ -10,17 +10,39 @@ namespace 백준._005단계
     {
         static void Main(string[] args)
         {
+            int k = 0;
             int n = 1;
-            int n1 = n + (n / 10) + (n % 10);
-            int n2 = n1 + (n1 / 10) + (n % 10);
-            int count = 0;
-            while (n >9)
+            //int n1 = n + (n / 10) + (n % 10);
+            //int n2 = n1 + (n1 / 10) + (n % 10);
+            while ( n < 10000)
             {
-                if(n>10)
+                if (n < 10)
                 {
-                    count++;
+                     k= n+ (n % 10);
+                    Console.WriteLine(k);
+
                 }
-                n /= 10;
+
+                else if (n>9 && n < 100)
+                {
+                    k = n + (n / 10 % 10) + (n % 10);
+                    Console.WriteLine(k);
+
+                }
+
+                else if (n>99 && n < 1000)
+                {
+                    k = n + (n/100 %10)+(n/10%10)+(n%10);
+                    Console.WriteLine(k);
+
+                }
+                else
+                {
+                    k = n + (n / 1000 % 10) +(n / 100 % 10) + (n / 10 % 10) + (n % 10);
+                    Console.WriteLine(k);
+                }
+
+                n++;
             }
         
         }
