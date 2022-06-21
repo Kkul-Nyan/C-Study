@@ -8,43 +8,36 @@ namespace 백준._005단계
 {
     internal class 함수_002
     {
+
         static void Main(string[] args)
         {
-            int k = 0;
-            int n = 1;
-            //int n1 = n + (n / 10) + (n % 10);
-            //int n2 = n1 + (n1 / 10) + (n % 10);
-            while ( n < 10000)
+            int i = 1;
+            List<int> self = new List<int>();
+            while (i < 10000)
             {
-                if (n < 10)
+                bool k = true;
+                for (int j = 1; j < 10000; j++)
                 {
-                     k= n+ (n % 10);
-                    Console.WriteLine(k);
-
+                    int one = j % 10;
+                    int ten = (j / 10) % 10;
+                    int hun = (j / 100) % 10;
+                    int thu = (j / 1000) % 10;
+                    int drnum = j + one + ten + hun + thu;
+                    
+                    if (i == drnum)
+                    {
+                        k = false;
+                    }
                 }
-
-                else if (n>9 && n < 100)
+                if(k == true)
                 {
-                    k = n + (n / 10 % 10) + (n % 10);
-                    Console.WriteLine(k);
-
+                    self.Add(i);
                 }
-
-                else if (n>99 && n < 1000)
-                {
-                    k = n + (n/100 %10)+(n/10%10)+(n%10);
-                    Console.WriteLine(k);
-
-                }
-                else
-                {
-                    k = n + (n / 1000 % 10) +(n / 100 % 10) + (n / 10 % 10) + (n % 10);
-                    Console.WriteLine(k);
-                }
-
-                n++;
+                i++;
             }
-        
+            foreach(var y in self)
+            { Console.WriteLine(y); }
+
         }
     }
 }
