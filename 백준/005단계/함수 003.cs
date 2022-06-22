@@ -8,7 +8,7 @@ namespace 백준._005단계
 {
     internal class 함수_003
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int t = int.Parse(Console.ReadLine());
             List<int> nums = new List<int>();

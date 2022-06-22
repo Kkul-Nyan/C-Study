@@ -9,7 +9,7 @@ namespace 백준._005단계
     internal class 함수_002
     {
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int i = 1;
             List<int> self = new List<int>();
