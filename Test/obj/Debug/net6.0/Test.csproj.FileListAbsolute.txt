@@ -28,3 +28,9 @@ C:\Users\1302\Desktop\C-Study\Test\obj\Debug\net6.0\refint\Test.dll
 C:\Users\1302\Desktop\C-Study\Test\obj\Debug\net6.0\Test.pdb
 C:\Users\1302\Desktop\C-Study\Test\obj\Debug\net6.0\Test.genruntimeconfig.cache
 C:\Users\1302\Desktop\C-Study\Test\obj\Debug\net6.0\ref\Test.dll
+C:\Users\1302\Desktop\C-Study\Test\bin\Debug\net6.0\백준.deps.json
+C:\Users\1302\Desktop\C-Study\Test\bin\Debug\net6.0\백준.runtimeconfig.json
+C:\Users\1302\Desktop\C-Study\Test\bin\Debug\net6.0\백준.exe
+C:\Users\1302\Desktop\C-Study\Test\bin\Debug\net6.0\백준.dll
+C:\Users\1302\Desktop\C-Study\Test\bin\Debug\net6.0\백준.pdb
+C:\Users\1302\Desktop\C-Study\Test\obj\Debug\net6.0\Test.csproj.CopyComplete

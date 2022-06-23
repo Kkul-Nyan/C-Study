@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Test/1.0.0": {
+        "dependencies": {
+          "백준": "1.0.0"
+        },
         "runtime": {
           "Test.dll": {}
+        }
+      },
+      "백준/1.0.0": {
+        "runtime": {
+          "백준.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "백준/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

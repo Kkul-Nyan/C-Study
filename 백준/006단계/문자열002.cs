@@ -8,7 +8,7 @@ namespace 백준._006단계
 {
     internal class 문자열002
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             int T = int.Parse(Console.ReadLine());
             string str = Console.ReadLine();

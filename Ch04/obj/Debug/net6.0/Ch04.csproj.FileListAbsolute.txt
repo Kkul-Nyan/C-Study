@@ -29,3 +29,11 @@ C:/Users/zmxn5/OneDrive/Desktop/C-Study/Ch04/obj/Debug/net6.0/Ch04.pdb
 /Users/jeonghyeongi/Desktop/C-Study/Ch04/obj/Debug/net6.0/Ch04.dll
 /Users/jeonghyeongi/Desktop/C-Study/Ch04/obj/Debug/net6.0/refint/Ch04.dll
 /Users/jeonghyeongi/Desktop/C-Study/Ch04/obj/Debug/net6.0/Ch04.pdb
+C:\Users\1302\Desktop\C-Study\Ch04\obj\Debug\net6.0\Ch04.csproj.AssemblyReference.cache
+C:\Users\1302\Desktop\C-Study\Ch04\obj\Debug\net6.0\Ch04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1302\Desktop\C-Study\Ch04\obj\Debug\net6.0\Ch04.AssemblyInfoInputs.cache
+C:\Users\1302\Desktop\C-Study\Ch04\obj\Debug\net6.0\Ch04.AssemblyInfo.cs
+C:\Users\1302\Desktop\C-Study\Ch04\obj\Debug\net6.0\Ch04.csproj.CoreCompileInputs.cache
+C:\Users\1302\Desktop\C-Study\Ch04\obj\Debug\net6.0\Ch04.dll
+C:\Users\1302\Desktop\C-Study\Ch04\obj\Debug\net6.0\refint\Ch04.dll
+C:\Users\1302\Desktop\C-Study\Ch04\obj\Debug\net6.0\Ch04.pdb

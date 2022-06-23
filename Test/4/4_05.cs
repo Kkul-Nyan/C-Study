@@ -41,10 +41,10 @@ namespace Test._4
             TV tv = new TV();
             Computer com = new Computer();
 
-            Product<TV.int> item1 = new Product<TV, int>(tv, 55);
-            Console.WriteLine(item1.Item.Show());
-            Console.WriteLine("TV 인치 : " + item1.Info);
-            Console.WriteLine();
+            //Product<TV.int> item1 = new Product<TV, int>(tv, 55);
+           // Console.WriteLine(item1.Item.Show());
+            //Console.WriteLine("TV 인치 : " + item1.Info);
+           // Console.WriteLine();
 
             Product<Computer, string> item2 = new Product<Computer, string>(com, "Apple");
             Console.WriteLine(item2.Item.Show());

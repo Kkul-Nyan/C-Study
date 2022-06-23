@@ -9,7 +9,7 @@ namespace 백준._007단계
 
     internal class 기본수학002
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             long input = long.Parse(Console.ReadLine());
             long step1 = input - 1;
