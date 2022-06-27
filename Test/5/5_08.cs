@@ -8,7 +8,7 @@ namespace Test._5
 {
     internal class _5_08
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Random random = new Random();
             int answer = random.Next(1,11);

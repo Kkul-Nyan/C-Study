@@ -8,7 +8,7 @@ namespace Test._5
 {
     internal class _5_07
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             while (true)
             {

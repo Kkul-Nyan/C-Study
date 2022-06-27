@@ -47,7 +47,7 @@ namespace Test._5
     }
     internal class _5_09
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             MyStack mStack = new MyStack();
             Random rand = new Random();
