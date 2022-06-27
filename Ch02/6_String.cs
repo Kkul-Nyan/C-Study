@@ -15,7 +15,7 @@ namespace Ch02
 {
     internal class _6_String
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string greeting = "Good Morning";
             Console.WriteLine("greeting : " +greeting);

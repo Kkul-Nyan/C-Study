@@ -8,5 +8,6 @@ namespace 백준._006단계
 {
     internal class 문자열004
     {
+
     }
 }
