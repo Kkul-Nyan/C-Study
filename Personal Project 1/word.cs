@@ -69,7 +69,7 @@ namespace Personal_Project_1
 
         private void btnFinish_Click(object sender, EventArgs e)
         {
-            
+            Close();
         }
 
         private void txtShow_TextChanged(object sender, EventArgs e)

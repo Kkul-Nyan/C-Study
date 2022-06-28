@@ -19,3 +19,14 @@ C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\ref\Pe
 C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.game.resources
 C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.page.resources
 C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.strings.resources
+C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.databasecontrol.resources
+C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.data1.resources
+C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.csproj.CopyComplete

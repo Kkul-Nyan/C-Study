@@ -33,6 +33,8 @@
             this.btnpage = new System.Windows.Forms.Button();
             this.Finish = new System.Windows.Forms.Button();
             this.btngame = new System.Windows.Forms.Button();
+            this.btnadmin = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnword
@@ -90,11 +92,34 @@
             this.btngame.UseVisualStyleBackColor = true;
             this.btngame.Click += new System.EventHandler(this.btngame_Click);
             // 
+            // btnadmin
+            // 
+            this.btnadmin.Location = new System.Drawing.Point(212, 576);
+            this.btnadmin.Name = "btnadmin";
+            this.btnadmin.Size = new System.Drawing.Size(75, 23);
+            this.btnadmin.TabIndex = 7;
+            this.btnadmin.Text = "button1";
+            this.btnadmin.UseVisualStyleBackColor = true;
+            this.btnadmin.Visible = false;
+            this.btnadmin.Click += new System.EventHandler(this.btnadmin_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(293, 580);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(107, 15);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "made 2022/06/23";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(409, 604);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnadmin);
             this.Controls.Add(this.btngame);
             this.Controls.Add(this.Finish);
             this.Controls.Add(this.btnpage);
@@ -103,6 +128,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -113,5 +139,7 @@
         private Button btnpage;
         private Button Finish;
         private Button btngame;
+        private Button btnadmin;
+        private Label label1;
     }
 }

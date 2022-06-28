@@ -35,5 +35,17 @@ namespace Personal_Project_1
         {
             Application.Exit();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+            btnadmin.Visible = true;
+        }
+
+        private void btnadmin_Click(object sender, EventArgs e)
+        {
+            databasecontrol databasecontrol = new databasecontrol();
+            databasecontrol.ShowDialog();
+        }
     }
 }

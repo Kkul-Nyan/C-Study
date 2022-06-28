@@ -40,3 +40,4 @@ C:\Users\zmxn5\OneDrive\Desktop\C-Study\Ch11\obj\Debug\net6.0-windows\refint\Ch1
 C:\Users\zmxn5\OneDrive\Desktop\C-Study\Ch11\obj\Debug\net6.0-windows\Ch11.pdb
 C:\Users\zmxn5\OneDrive\Desktop\C-Study\Ch11\obj\Debug\net6.0-windows\Ch11.genruntimeconfig.cache
 C:\Users\zmxn5\OneDrive\Desktop\C-Study\Ch11\obj\Debug\net6.0-windows\ref\Ch11.dll
+C:\Users\1302\Desktop\C-Study\Ch11\obj\Debug\net6.0-windows\Ch11.Form3.resources
