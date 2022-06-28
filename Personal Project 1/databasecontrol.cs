@@ -11,13 +11,11 @@ using System.Windows.Forms;
 
 namespace Personal_Project_1
 {
+   
     public partial class databasecontrol : Form
     {
-        private string SERVER = "127.0.0.1";
-        private string PORT = "3306";
-        private string USERNAME = "root";
-        private string PASSWORD = "1234";
-        private string DATABASE = "typingtraining";
+        
+
 
         public databasecontrol()
         {
@@ -26,34 +24,48 @@ namespace Personal_Project_1
             textBox2.PasswordChar = '*';
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            USERNAME = textBox1.Text.ToString();
-            PASSWORD = textBox2.Text.ToString();
-            BaseAccess bassacess = new BaseAccess(USERNAME, PASSWORD);
-            MySqlConnection conn = bassacess.Connect();
 
-            try
+            BaseAccess bassaccess = new BaseAccess(textBox1.Text.ToString(), textBox2.Text.ToString());
+            MySqlConnection conn = bassaccess.Connect();
+           
+            if (textBox1.Text.ToString() == "player")
             {
-                conn.Open();
-                
-                data1 dat1 = new data1();
-                dat1.ShowDialog();
-                this.Close();
+                try
+                {
+                    throw new Exception();
+                }
+                catch (Exception except)
+                {
+                    MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
+                }
             }
 
-            catch (Exception except)
+            else
             {
-                Console.WriteLine(except.Message);
-                MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
-                
-            }
-            finally
-            {
-                conn.Close();
-            }
+                try
+                {
+                    conn.Open();
 
+                    data1 dat1 = new data1();
+                    dat1.ShowDialog();
+                    this.Close();
+                    
+                }
+
+                catch (Exception except)
+                {
+                    Console.WriteLine(except.Message);
+                    MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
+
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -61,14 +73,50 @@ namespace Personal_Project_1
             Close();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void Enter(object sender, KeyEventArgs e)
         {
+            if (e.KeyCode == Keys.Enter)
+            { 
+             
+            
+            BaseAccess bassacess = new BaseAccess(textBox1.Text.ToString(), textBox2.Text.ToString());
+            MySqlConnection conn = bassacess.Connect();
 
-        }
+                if (textBox1.Text.ToString() == "player")
+                {
+                    try
+                    {
+                        throw new Exception();
+                    }
+                    catch (Exception except)
+                    {
+                        MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
+                    }
+                }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
- 
+                else
+                {
+                    try
+                    {
+                        conn.Open();
+
+                        data1 dat1 = new data1();
+                        dat1.ShowDialog();
+                        this.Close();
+                    }
+
+                    catch (Exception except)
+                    {
+                        Console.WriteLine(except.Message);
+                        MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
+
+                    }
+                    finally
+                    {
+                        conn.Close();
+                    }
+                }
+            }
         }
     }
 }

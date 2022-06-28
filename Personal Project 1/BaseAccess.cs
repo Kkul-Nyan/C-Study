@@ -12,8 +12,8 @@ namespace Personal_Project_1
         private const string SERVER = "127.0.0.1";
         private const string PORT = "3306";
         private const string DATABASE = "typingtraining";
-        private string USERNAME = "root";
-        private string PASSWORD = "1234";
+        private string USERNAME;
+        private string PASSWORD;
 
         public BaseAccess(string uSERNAME, string pASSWORD)
         {

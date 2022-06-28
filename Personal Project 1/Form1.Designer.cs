@@ -35,12 +35,13 @@
             this.btngame = new System.Windows.Forms.Button();
             this.btnadmin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnword
             // 
             this.btnword.Font = new System.Drawing.Font("맑은 고딕", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnword.Location = new System.Drawing.Point(62, 25);
+            this.btnword.Location = new System.Drawing.Point(62, 96);
             this.btnword.Name = "btnword";
             this.btnword.Size = new System.Drawing.Size(278, 90);
             this.btnword.TabIndex = 0;
@@ -51,7 +52,7 @@
             // btnstring
             // 
             this.btnstring.Font = new System.Drawing.Font("맑은 고딕", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnstring.Location = new System.Drawing.Point(62, 139);
+            this.btnstring.Location = new System.Drawing.Point(62, 192);
             this.btnstring.Name = "btnstring";
             this.btnstring.Size = new System.Drawing.Size(278, 90);
             this.btnstring.TabIndex = 1;
@@ -62,7 +63,7 @@
             // btnpage
             // 
             this.btnpage.Font = new System.Drawing.Font("맑은 고딕", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnpage.Location = new System.Drawing.Point(62, 254);
+            this.btnpage.Location = new System.Drawing.Point(62, 288);
             this.btnpage.Name = "btnpage";
             this.btnpage.Size = new System.Drawing.Size(278, 90);
             this.btnpage.TabIndex = 2;
@@ -84,7 +85,7 @@
             // btngame
             // 
             this.btngame.Font = new System.Drawing.Font("맑은 고딕", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btngame.Location = new System.Drawing.Point(62, 374);
+            this.btngame.Location = new System.Drawing.Point(62, 384);
             this.btngame.Name = "btngame";
             this.btngame.Size = new System.Drawing.Size(278, 90);
             this.btngame.TabIndex = 4;
@@ -113,11 +114,23 @@
             this.label1.Text = "made 2022/06/23";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("맑은 고딕", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(23, 7);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(357, 86);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "타자연습기";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(409, 604);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnadmin);
             this.Controls.Add(this.btngame);
@@ -141,5 +154,6 @@
         private Button btngame;
         private Button btnadmin;
         private Label label1;
+        private Label label2;
     }
 }
