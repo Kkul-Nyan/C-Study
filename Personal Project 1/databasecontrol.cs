@@ -14,8 +14,6 @@ namespace Personal_Project_1
    
     public partial class databasecontrol : Form
     {
-        
-
 
         public databasecontrol()
         {
@@ -28,8 +26,9 @@ namespace Personal_Project_1
         private void button1_Click(object sender, EventArgs e)
         {
 
-            BaseAccess bassaccess = new BaseAccess(textBox1.Text.ToString(), textBox2.Text.ToString());
-            MySqlConnection conn = bassaccess.Connect();
+            BaseAccessForManager managerAcess = new BaseAccessForManager(textBox1.Text.ToString(), textBox2.Text.ToString());
+           
+            MySqlConnection conn = managerAcess.Connect();
            
             if (textBox1.Text.ToString() == "player")
             {
@@ -47,11 +46,13 @@ namespace Personal_Project_1
             {
                 try
                 {
+
                     conn.Open();
 
                     data1 dat1 = new data1();
                     dat1.ShowDialog();
-                    this.Close();
+
+
                     
                 }
 
@@ -79,8 +80,8 @@ namespace Personal_Project_1
             { 
              
             
-            BaseAccess bassacess = new BaseAccess(textBox1.Text.ToString(), textBox2.Text.ToString());
-            MySqlConnection conn = bassacess.Connect();
+            BaseAccessForManager managerAcess = new BaseAccessForManager(textBox1.Text.ToString(), textBox2.Text.ToString());
+            MySqlConnection conn = managerAcess.Connect();
 
                 if (textBox1.Text.ToString() == "player")
                 {
@@ -118,5 +119,6 @@ namespace Personal_Project_1
                 }
             }
         }
+
     }
 }

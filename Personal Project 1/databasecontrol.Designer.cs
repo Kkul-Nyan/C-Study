@@ -42,6 +42,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(131, 23);
             this.textBox1.TabIndex = 0;
+
             // 
             // textBox2
             // 
@@ -105,6 +106,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "databasecontrol";
             this.Text = "databasecontrol";
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
