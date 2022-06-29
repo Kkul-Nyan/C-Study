@@ -12,18 +12,21 @@ namespace Personal_Project_1
         protected const string SERVER = "127.0.0.1";
         protected const string PORT = "3306";
         protected const string DATABASE = "typingtraining";
-        
+        protected const string hiddenUSERNAME = "admin";
+        protected const string hiddenPASSWORD = "1234";
+
         string SERVER1 { get; }
         string PORT1 { get; }
         string DATABASE1 { get; }
-        
+        string HiddenUSERNAME { get; }
+        string HiddenPASSWORD { get; }
 
         public MySqlConnection Connect();
         public void UseforTyping();
-        public void Insert();
+        public void Insert(int uid, string words);
         public void Update();
         public void Delete();
-        public void Search();
+        public List<Datatable> Search();
         public void Find();
     }
 }

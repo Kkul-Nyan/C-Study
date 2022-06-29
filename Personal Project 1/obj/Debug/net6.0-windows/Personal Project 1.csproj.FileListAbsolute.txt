@@ -30,3 +30,35 @@ C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Ubiety
 C:\Users\1302\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\ZstdNet.dll
 C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.data1.resources
 C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.csproj.CopyComplete
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Personal Project 1.exe
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Personal Project 1.deps.json
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Personal Project 1.runtimeconfig.json
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Personal Project 1.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Personal Project 1.pdb
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.csproj.AssemblyReference.cache
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.data1.resources
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.databasecontrol.resources
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.Form1.resources
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.game.resources
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.page.resources
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.strings.resources
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.word.resources
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.csproj.GenerateResource.cache
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.AssemblyInfoInputs.cache
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.AssemblyInfo.cs
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.csproj.CoreCompileInputs.cache
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.csproj.CopyComplete
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\refint\Personal Project 1.dll
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.pdb
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.genruntimeconfig.cache
+C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\ref\Personal Project 1.dll

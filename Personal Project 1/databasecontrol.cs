@@ -21,7 +21,7 @@ namespace Personal_Project_1
 
             textBox2.PasswordChar = '*';
         }
-
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -60,12 +60,8 @@ namespace Personal_Project_1
                 {
                     Console.WriteLine(except.Message);
                     MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
+                }
 
-                }
-                finally
-                {
-                    conn.Close();
-                }
             }
         }
 
@@ -111,10 +107,6 @@ namespace Personal_Project_1
                         Console.WriteLine(except.Message);
                         MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
 
-                    }
-                    finally
-                    {
-                        conn.Close();
                     }
                 }
             }

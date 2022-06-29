@@ -11,19 +11,20 @@ namespace Personal_Project_1
     {
 
         private string USERNAME = "player";
-        private string PASSWORD = "1111"; 
-        private string SERVER;
-        private string PORT;
-        private string DATABASE;
+        private string PASSWORD = "1234"; 
+        private string? SERVER;
+        private string? PORT;
+        private string? DATABASE;
 
-        public string SERVER1 => SERVER;
-        public string PORT1 => PORT;
-        public string DATABASE1 => DATABASE;
-
+        public string SERVER1 => IAccessFordatabase.SERVER;
+        public string PORT1 => IAccessFordatabase.PORT;
+        public string DATABASE1 => IAccessFordatabase.DATABASE;
+        public string HiddenUSERNAME => throw new NotImplementedException();
+        public string HiddenPASSWORD => throw new NotImplementedException();
 
         public MySqlConnection Connect()
         {
-            string strConn = $"server={SERVER};port={PORT};username={USERNAME};password={PASSWORD};database={DATABASE}";
+            string strConn = $"server={IAccessFordatabase.SERVER};port={IAccessFordatabase.PORT};username={USERNAME};password={PASSWORD};database={IAccessFordatabase.DATABASE}";
             MySqlConnection conn = new MySqlConnection(strConn);
             return conn;
         }
@@ -34,10 +35,6 @@ namespace Personal_Project_1
             throw new NotImplementedException();
         }
 
-        public void Insert()
-        {
-            throw new NotImplementedException();
-        }
 
         public void Update()
         {
@@ -49,15 +46,21 @@ namespace Personal_Project_1
             throw new NotImplementedException();
         }
 
-        public void Search()
-        {
-            throw new NotImplementedException();
-        }
+
 
         public void Find()
         {
             throw new NotImplementedException();
         }
 
+        public void Insert(int uid, string words)
+        {
+            throw new NotImplementedException();
+        }
+
+         List<Datatable> IAccessFordatabase.Search()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
