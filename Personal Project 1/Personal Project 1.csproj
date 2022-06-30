@@ -10,6 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="tablename.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="tablename.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.29" />
   </ItemGroup>
 

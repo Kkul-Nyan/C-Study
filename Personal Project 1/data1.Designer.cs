@@ -53,7 +53,7 @@
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(252, 461);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // btnFind
             // 
@@ -69,7 +69,7 @@
             // btnInsert
             // 
             this.btnInsert.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnInsert.Location = new System.Drawing.Point(348, 263);
+            this.btnInsert.Location = new System.Drawing.Point(348, 295);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(143, 31);
             this.btnInsert.TabIndex = 2;
@@ -80,7 +80,7 @@
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdate.Location = new System.Drawing.Point(558, 263);
+            this.btnUpdate.Location = new System.Drawing.Point(558, 295);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(143, 31);
             this.btnUpdate.TabIndex = 3;
@@ -133,7 +133,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(277, 213);
+            this.textBox2.Location = new System.Drawing.Point(276, 232);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(498, 29);
             this.textBox2.TabIndex = 8;

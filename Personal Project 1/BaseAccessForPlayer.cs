@@ -29,38 +29,35 @@ namespace Personal_Project_1
             return conn;
         }
 
-
         public void UseforTyping()
         {
             throw new NotImplementedException();
         }
 
-
-        public void Update()
+        public void Update(string table, int uid, string words)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete()
+        public void Delete(string table, int uid)
         {
             throw new NotImplementedException();
         }
-
-
 
         public void Find()
         {
             throw new NotImplementedException();
         }
 
-        public void Insert(int uid, string words)
+        public void Insert(string table, int uid, string words)
         {
             throw new NotImplementedException();
         }
 
-         List<Datatable> IAccessFordatabase.Search()
+         public List<Datatable> Search(string table)
         {
             throw new NotImplementedException();
         }
+
     }
 }

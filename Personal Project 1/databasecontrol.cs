@@ -26,10 +26,10 @@ namespace Personal_Project_1
         private void button1_Click(object sender, EventArgs e)
         {
 
-            BaseAccessForManager managerAcess = new BaseAccessForManager(textBox1.Text.ToString(), textBox2.Text.ToString());
+            BaseAccessForManager managerAcess = new BaseAccessForManager("admin", "1234");
            
             MySqlConnection conn = managerAcess.Connect();
-           
+
             if (textBox1.Text.ToString() == "player")
             {
                 try
@@ -42,26 +42,14 @@ namespace Personal_Project_1
                 }
             }
 
+            else if (textBox1.Text.ToString() == "admin")
+            {
+                data1 dat1 = new data1();
+                dat1.ShowDialog();
+            }
             else
             {
-                try
-                {
-
-                    conn.Open();
-
-                    data1 dat1 = new data1();
-                    dat1.ShowDialog();
-
-
-                    
-                }
-
-                catch (Exception except)
-                {
-                    Console.WriteLine(except.Message);
-                    MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
-                }
-
+                MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
             }
         }
 
@@ -74,11 +62,9 @@ namespace Personal_Project_1
         {
             if (e.KeyCode == Keys.Enter)
             { 
-             
-            
             BaseAccessForManager managerAcess = new BaseAccessForManager(textBox1.Text.ToString(), textBox2.Text.ToString());
             MySqlConnection conn = managerAcess.Connect();
-
+               
                 if (textBox1.Text.ToString() == "player")
                 {
                     try
@@ -91,26 +77,18 @@ namespace Personal_Project_1
                     }
                 }
 
+                else if (textBox1.Text.ToString() == "admin")
+                {
+                    data1 dat1 = new data1();
+                    dat1.ShowDialog();
+                }
                 else
                 {
-                    try
-                    {
-                        conn.Open();
-
-                        data1 dat1 = new data1();
-                        dat1.ShowDialog();
-                        this.Close();
-                    }
-
-                    catch (Exception except)
-                    {
-                        Console.WriteLine(except.Message);
-                        MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
-
-                    }
+                    MessageBox.Show("아이디,비밀번호를 다시 확인해주세요.", "오류");
                 }
             }
         }
+
 
     }
 }

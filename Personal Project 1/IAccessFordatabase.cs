@@ -21,12 +21,13 @@ namespace Personal_Project_1
         string HiddenUSERNAME { get; }
         string HiddenPASSWORD { get; }
 
+
         public MySqlConnection Connect();
         public void UseforTyping();
-        public void Insert(int uid, string words);
-        public void Update();
-        public void Delete();
-        public List<Datatable> Search();
+        public void Insert(string table, int cid, string content);
+        public void Update(string table, int cid, string content);
+        public void Delete(string table, int cid);
+        public List<Datatable> Search(string table);
         public void Find();
     }
 }

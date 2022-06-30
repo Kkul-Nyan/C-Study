@@ -106,7 +106,6 @@
             this.Controls.Add(this.textBox1);
             this.Name = "databasecontrol";
             this.Text = "databasecontrol";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 

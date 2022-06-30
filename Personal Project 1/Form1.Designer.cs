@@ -101,7 +101,6 @@
             this.btnadmin.TabIndex = 7;
             this.btnadmin.Text = "button1";
             this.btnadmin.UseVisualStyleBackColor = true;
-            this.btnadmin.Visible = false;
             this.btnadmin.Click += new System.EventHandler(this.btnadmin_Click);
             // 
             // label1

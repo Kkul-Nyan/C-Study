@@ -20,7 +20,6 @@ namespace Personal_Project_1
         public string HiddenUSERNAME => throw new NotImplementedException();
         public string HiddenPASSWORD => throw new NotImplementedException();
 
-
         private string USERNAME;
         private string PASSWORD;
 
@@ -39,13 +38,15 @@ namespace Personal_Project_1
             MySqlConnection conn = new MySqlConnection(strConn);
             return conn;
         }
-
+ 
         public void UseforTyping()
         {
             throw new NotImplementedException();
         }
 
-        public void Insert(int uid, string words)
+        
+
+        public void Insert(string table,int cid, string content)
         {
             MySqlConnection conn = Connect();
             try
@@ -53,7 +54,7 @@ namespace Personal_Project_1
                 conn.Open();
 
                 MySqlCommand cmd = conn.CreateCommand();
-               cmd.CommandText = $"INSERT INTO `{table}` VALUES ('{uid}', '{words}')";
+               cmd.CommandText = $"INSERT INTO `{table}` VALUES ('{cid}', '{content}')";
 
                 cmd.ExecuteNonQuery();
             }
@@ -68,17 +69,55 @@ namespace Personal_Project_1
             MessageBox.Show("데이터가 저장되었습니다.", "완료");
         }
 
-        public void Update()
+        public void Update(string table, int cid, string content)
         {
-            throw new NotImplementedException();
-        }
+            MySqlConnection conn = Connect();
+            try
+            {
+                conn.Open();
 
-        public void Delete()
-        {
-            throw new NotImplementedException();
+                MySqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = $"UPDATE `{table}` SET `content` = '{content}' WHERE `cid` = '{cid}' ";
+
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception except)
+            {
+                Console.WriteLine(except.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            MessageBox.Show("데이터가 수정되었습니다.", "완료");
         }
-        private string table;
-        public List<Datatable> Search()
+    
+
+        public void Delete(string table, int cid)
+        {
+            MySqlConnection conn = Connect();
+            try
+            {
+                conn.Open();
+
+                MySqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = $"delete from `{table}` WHERE `cid` = '{cid}' ";
+
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception except)
+            {
+                Console.WriteLine(except.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            MessageBox.Show("데이터가 삭제되었습니다.", "완료");
+        }
+    
+
+        public List<Datatable> Search(string table)
         {
             {
                 MySqlConnection conn = Connect();
@@ -119,5 +158,6 @@ namespace Personal_Project_1
         {
             throw new NotImplementedException();
         }
+
     }
 }

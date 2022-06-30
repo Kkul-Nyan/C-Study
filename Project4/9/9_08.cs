@@ -29,7 +29,7 @@ namespace Test._9
 
             //태어난 해의 생일부터 그해 마지막 날까자의 날짜 수
             int yearDays = IsLeapYear(bYear) ? 366 : 365;
-            totalDays += yearDays -DayofYear(bYear,tMonth,tDay)
+            totalDays += yearDays - DayofYear(bYear, tMonth, tDay)
 
              for(int year =bYear+1;year <tYear; year++)
             {
