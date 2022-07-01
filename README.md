@@ -20,6 +20,7 @@
 ## Project1. 계산기
 [project1](./projecct1/project1.png)
 ## Project2
+[data](./Project2/data.png)
 ## Project3
 ## Project4
 ## Personal Project
