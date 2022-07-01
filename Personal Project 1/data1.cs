@@ -77,6 +77,7 @@ namespace Personal_Project_1
 
         private void btnFind_Click(object sender, EventArgs e)
         {
+
         }
 
         private void btnInsert_Click(object sender, EventArgs e)
@@ -96,7 +97,8 @@ namespace Personal_Project_1
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-
+            reset();
+            MessageBox.Show("리셋되었습니다.", "완료");
         }
 
         private void btnFinish_Click(object sender, EventArgs e)
@@ -114,6 +116,12 @@ namespace Personal_Project_1
 
             textBox1.Text = uid;
             textBox2.Text = words;
+        }
+
+        private void reset()
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
         }
     }
 }
