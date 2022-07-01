@@ -66,7 +66,7 @@
 [project4](./Project4/game.png)
 ## Personal Project1
 진행전 만들어본 아키텍처1
-[PersonalProject1](./Personal Project 1/TypingTrainProgram.png)
+[PersonalProject1](.Personal%20Project%201/TypingTrainProgram.png)
 기본 구성
 	-1.Form1(메인)->단어,줄,페이지 단위 타자연습, 게임, 종료 -> Player계정으로SQL에 접근 필요데이터를 읽어드림, Player계정에서는 오직 읽기만이 가능하게 폼,모델,클래스를 구분관리해볼것
 	-2.숨겨진 관리자버튼 작성 ->관리자권한으로 SQL접속으로 데이터베이스 관리
