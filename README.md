@@ -26,5 +26,5 @@
 ## Project4
 [project4](./Project4/game.png)
 ## Personal Project1
-[personalproject1](./Personal Project 1/TypingTrainProgram.png)
+[personalproject1](./Personal_Project_1/TypingTrainProgram.png)
 
