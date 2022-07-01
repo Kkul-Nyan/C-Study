@@ -18,13 +18,13 @@
 ## Ch10. HelloWorld
 ## Ch11. HelloWorld
 ## Project1. 계산기
-[cal](./projecct1/cal.png)
+[project1](./projecct1/cal.png)
 ## Project2
-[data](./Project2/data.png)
+[project2](./Project2/data.png)
 ## Project3
-[dhahr](.Project3/dhahr.png)
+[project3](.Project3/dhahr.png)
 ## Project4
-[game](./project4/game.png)
+[project4](./project4/game.png)
 ## Personal Project1
-[TypingTrainProgram](./Personal Project 1/TypingTrainProgram.png)
+[personalproject1](./Personal Project 1/TypingTrainProgram.png)
 
