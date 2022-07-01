@@ -25,5 +25,6 @@
 [dhahr](.Project3/dhahr.png)
 ## Project4
 [game](./project4/game.png)
-## Personal Project
+## Personal Project1
 [TypingTrainProgram](./Personal Project 1/TypingTrainProgram.png)
+## Personal Project2
