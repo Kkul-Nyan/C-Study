@@ -70,29 +70,55 @@ namespace Personal_Project_1
 
         private void btnSerch_Click(object sender, EventArgs e)
         {
-
-            List<Datatable> datatables = managerAccess.Search(tablename.Text.ToString());
+            string table = tablename.Text.ToString();
+            List<Datatable> datatables = managerAccess.Search(table);
             dataGridView1.DataSource = datatables;
         }
 
         private void btnFind_Click(object sender, EventArgs e)
         {
+            int cid = 0;
+            string table = tablename.Text.ToString();
 
+            try
+            {
+                cid = Convert.ToInt32(textBox1.Text);
+                if( cid == null)
+                {
+                    throw new Exception();
+                }
+            }
+            catch (Exception except)
+            {
+                MessageBox.Show("찾을 내용을 입력해주세요.", "오류");
+            }
+            textBox2.Text = managerAccess.Find(table, cid);
+            
         }
 
         private void btnInsert_Click(object sender, EventArgs e)
         {
-           managerAccess.Insert(tablename.Text.ToString(),Convert.ToInt32(textBox1.Text),textBox2.Text.ToString());
+            string table = tablename.Text.ToString();
+            int cid = Convert.ToInt32(textBox1.Text);
+            string content = textBox2.Text.ToString();
+
+            managerAccess.Insert(table,cid,content);
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            managerAccess.Update(tablename.Text.ToString(), Convert.ToInt32(textBox1.Text), textBox2.Text.ToString());
+            string table = tablename.Text.ToString();
+            int cid = Convert.ToInt32(textBox1.Text);
+            string content = textBox2.Text.ToString();
+            managerAccess.Update(table, cid, content);
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            managerAccess.Delete(tablename.Text.ToString(), Convert.ToInt32(textBox1.Text));
+            string table = tablename.Text.ToString();
+            int cid = Convert.ToInt32(textBox1.Text);
+
+            managerAccess.Delete(table, cid);
         }
 
         private void btnReset_Click(object sender, EventArgs e)
@@ -111,11 +137,11 @@ namespace Personal_Project_1
             int selectedRow = e.RowIndex;
             DataGridViewRow row = dataGridView1.Rows[selectedRow];
 
-            string uid = row.Cells[0].Value.ToString();
-            string words = row.Cells[1].Value.ToString();
+            string cid = row.Cells[0].Value.ToString();
+            string content = row.Cells[1].Value.ToString();
 
-            textBox1.Text = uid;
-            textBox2.Text = words;
+            textBox1.Text = cid;
+            textBox2.Text = content;
         }
 
         private void reset()

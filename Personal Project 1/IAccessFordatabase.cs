@@ -28,6 +28,6 @@ namespace Personal_Project_1
         public void Update(string table, int cid, string content);
         public void Delete(string table, int cid);
         public List<Datatable> Search(string table);
-        public void Find();
+        public string Find(string table, int cid);
     }
 }

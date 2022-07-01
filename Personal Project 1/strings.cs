@@ -16,5 +16,40 @@ namespace Personal_Project_1
         {
             InitializeComponent();
         }
+
+        private void btnFinish_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnKor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEng_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnKE_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textShow_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textTyping_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -9,12 +9,11 @@ namespace Personal_Project_1
 
         class Datatable
         {
-            private int uid;
-            private string words;
+            private int cid;
+            private string content;
 
-
-            public int Uid { get => uid; set => uid = value; }
-            public string Words { get => words; set => words = value; }
-        }
+        public int Cid { get => cid; set => cid = value; }
+        public string Content { get => content; set => content = value; }
+    }
     
 }

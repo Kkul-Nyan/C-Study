@@ -101,6 +101,7 @@
             this.btnadmin.TabIndex = 7;
             this.btnadmin.Text = "button1";
             this.btnadmin.UseVisualStyleBackColor = true;
+            this.btnadmin.Visible = false;
             this.btnadmin.Click += new System.EventHandler(this.btnadmin_Click);
             // 
             // label1
@@ -128,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(409, 604);
+            this.ClientSize = new System.Drawing.Size(409, 601);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnadmin);

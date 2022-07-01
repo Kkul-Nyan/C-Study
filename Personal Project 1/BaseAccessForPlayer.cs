@@ -44,7 +44,7 @@ namespace Personal_Project_1
             throw new NotImplementedException();
         }
 
-        public void Find()
+        public string Find(string table, int cid)
         {
             throw new NotImplementedException();
         }

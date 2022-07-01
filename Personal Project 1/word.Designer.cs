@@ -45,18 +45,18 @@
             // txtShow
             // 
             this.txtShow.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtShow.Location = new System.Drawing.Point(51, 134);
+            this.txtShow.Location = new System.Drawing.Point(50, 110);
             this.txtShow.Name = "txtShow";
-            this.txtShow.Size = new System.Drawing.Size(679, 43);
+            this.txtShow.Size = new System.Drawing.Size(660, 43);
             this.txtShow.TabIndex = 0;
             this.txtShow.TextChanged += new System.EventHandler(this.txtShow_TextChanged);
             // 
             // txtTyping
             // 
             this.txtTyping.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtTyping.Location = new System.Drawing.Point(51, 209);
+            this.txtTyping.Location = new System.Drawing.Point(50, 190);
             this.txtTyping.Name = "txtTyping";
-            this.txtTyping.Size = new System.Drawing.Size(679, 43);
+            this.txtTyping.Size = new System.Drawing.Size(660, 43);
             this.txtTyping.TabIndex = 1;
             this.txtTyping.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTyping_TextChanged);
             // 
@@ -64,9 +64,9 @@
             // 
             this.btnKor.BackColor = System.Drawing.Color.MistyRose;
             this.btnKor.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnKor.Location = new System.Drawing.Point(51, 25);
+            this.btnKor.Location = new System.Drawing.Point(50, 25);
             this.btnKor.Name = "btnKor";
-            this.btnKor.Size = new System.Drawing.Size(101, 51);
+            this.btnKor.Size = new System.Drawing.Size(100, 50);
             this.btnKor.TabIndex = 2;
             this.btnKor.Text = "한글연습";
             this.btnKor.UseVisualStyleBackColor = false;
@@ -76,9 +76,9 @@
             // 
             this.btnEng.BackColor = System.Drawing.Color.MistyRose;
             this.btnEng.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEng.Location = new System.Drawing.Point(332, 25);
+            this.btnEng.Location = new System.Drawing.Point(330, 25);
             this.btnEng.Name = "btnEng";
-            this.btnEng.Size = new System.Drawing.Size(101, 51);
+            this.btnEng.Size = new System.Drawing.Size(100, 50);
             this.btnEng.TabIndex = 3;
             this.btnEng.Text = "영문연습";
             this.btnEng.UseVisualStyleBackColor = false;
@@ -88,9 +88,9 @@
             // 
             this.btnKE.BackColor = System.Drawing.Color.MistyRose;
             this.btnKE.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnKE.Location = new System.Drawing.Point(629, 25);
+            this.btnKE.Location = new System.Drawing.Point(610, 25);
             this.btnKE.Name = "btnKE";
-            this.btnKE.Size = new System.Drawing.Size(101, 51);
+            this.btnKE.Size = new System.Drawing.Size(100, 50);
             this.btnKE.TabIndex = 4;
             this.btnKE.Text = "한/영연습";
             this.btnKE.UseVisualStyleBackColor = false;
@@ -99,10 +99,10 @@
             // btnStart
             // 
             this.btnStart.Font = new System.Drawing.Font("맑은 고딕", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnStart.Location = new System.Drawing.Point(128, 297);
+            this.btnStart.Location = new System.Drawing.Point(120, 350);
             this.btnStart.Name = "btnStart";
             this.btnStart.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnStart.Size = new System.Drawing.Size(214, 80);
+            this.btnStart.Size = new System.Drawing.Size(220, 80);
             this.btnStart.TabIndex = 5;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -111,10 +111,10 @@
             // btnFinish
             // 
             this.btnFinish.Font = new System.Drawing.Font("맑은 고딕", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnFinish.Location = new System.Drawing.Point(439, 297);
+            this.btnFinish.Location = new System.Drawing.Point(420, 350);
             this.btnFinish.Name = "btnFinish";
             this.btnFinish.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnFinish.Size = new System.Drawing.Size(214, 80);
+            this.btnFinish.Size = new System.Drawing.Size(220, 80);
             this.btnFinish.TabIndex = 6;
             this.btnFinish.Text = "Finish";
             this.btnFinish.UseVisualStyleBackColor = true;
@@ -133,7 +133,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(51, 255);
+            this.label1.Location = new System.Drawing.Point(50, 255);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 30);
             this.label1.TabIndex = 8;
@@ -143,7 +143,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(213, 255);
+            this.label2.Location = new System.Drawing.Point(210, 255);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 30);
             this.label2.TabIndex = 9;
@@ -153,7 +153,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(379, 255);
+            this.label3.Location = new System.Drawing.Point(390, 255);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(128, 30);
             this.label3.TabIndex = 10;
@@ -163,7 +163,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(565, 255);
+            this.label4.Location = new System.Drawing.Point(560, 255);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 30);
             this.label4.TabIndex = 11;
@@ -174,7 +174,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(764, 461);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

@@ -62,3 +62,7 @@ C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-wind
 C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.pdb
 C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal Project 1.genruntimeconfig.cache
 C:\Users\zmxn5\OneDrive\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\ref\Personal Project 1.dll
+C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.breakBlock.resources
+C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.rain.resources
+C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.ranking.resources
+C:\Users\1302\Desktop\C-Study\Personal Project 1\obj\Debug\net6.0-windows\Personal_Project_1.wordinvaders.resources

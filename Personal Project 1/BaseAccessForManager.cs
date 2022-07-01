@@ -119,7 +119,7 @@ namespace Personal_Project_1
 
         public List<Datatable> Search(string table)
         {
-            {
+            
                 MySqlConnection conn = Connect();
                 List<Datatable> datatables = new List<Datatable>();
                 try
@@ -135,8 +135,8 @@ namespace Personal_Project_1
                     while (reader.Read())
                     {
                         Datatable datatable = new Datatable();
-                        datatable.Uid = Convert.ToInt32(reader[0]);
-                        datatable.Words = reader[1].ToString();
+                        datatable.Cid = Convert.ToInt32(reader[0]);
+                        datatable.Content = reader[1].ToString();
 
                         datatables.Add(datatable);
                     }
@@ -151,12 +151,43 @@ namespace Personal_Project_1
                     conn.Close();
                 }
                 return datatables;
-            }
+            
         }
 
-        public void Find()
+        public string Find(string table, int cid)
         {
-            throw new NotImplementedException();
+            string A = "Null";
+            MySqlConnection conn = Connect();
+
+            try
+            {
+               conn.Open();
+
+                MySqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = $"SELECT * FROM `{table}` WHERE `cid` ={cid} ";
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                
+                while(reader.Read())
+                {
+                    Console.WriteLine(reader[1].ToString());
+                    A = reader[1].ToString();
+                }
+
+
+                cmd.ExecuteNonQuery();
+                
+            }
+            catch (Exception except)
+            {
+                Console.WriteLine(except.Message);
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return A;
         }
 
     }
