@@ -18,10 +18,12 @@
 ## Ch10. HelloWorld
 ## Ch11. HelloWorld
 ## Project1. 계산기
-![projecct1](https://user-images.githubusercontent.com/106725881/176803826-7f79d66b-4cd9-4ca0-b7da-fdbb58040b6e.png)
+[project1](./projecct1/project1.png)
 ## Project2
 [data](./Project2/data.png)
 ## Project3
+[dhahr](.Project3/dhahr.png)
 ## Project4
+[game](./project4/game.png)
 ## Personal Project
-
+[TypingTrainProgram](./Personal Project 1/TypingTrainProgram.png)
