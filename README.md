@@ -18,7 +18,7 @@
 ## Ch10. HelloWorld
 ## Ch11. HelloWorld
 ## Project1. 계산기
-[project1](./Projecct1/cal.png)
+[project1](./projecct1/cal.png)
 ## Project2
 [project2](./Project2/data.png)
 ## Project3
@@ -26,5 +26,5 @@
 ## Project4
 [project4](./Project4/game.png)
 ## Personal Project1
-[personalproject1](./Personal_Project_1/TypingTrainProgram.png)
-
+[PersonalProject1](./Personal_Project_1/TypingTrainProgram.png)
+## Personal Project2
