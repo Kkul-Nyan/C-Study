@@ -60,8 +60,8 @@
 ## Test  
 	-각종 C#관련 문제풀이
 
-## 백석 
-	-백석진도별로 문제풀기
+## 백준 
+	-백진도별로 문제풀기
 
 ## Project1. 계산기
 [project1](./projecct1/projecct1.png)
