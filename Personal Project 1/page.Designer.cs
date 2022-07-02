@@ -86,7 +86,6 @@
             this.btnStart.TabIndex = 3;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnFinish
             // 
@@ -155,7 +154,6 @@
             this.textTyping.Name = "textTyping";
             this.textTyping.Size = new System.Drawing.Size(660, 43);
             this.textTyping.TabIndex = 10;
-            this.textTyping.TextChanged += new System.EventHandler(this.textTyping_TextChanged);
             // 
             // page
             // 

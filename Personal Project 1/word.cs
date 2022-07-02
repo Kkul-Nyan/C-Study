@@ -41,18 +41,18 @@ namespace Personal_Project_1
 
         private void startword()
         {
-         //   if (language == 1)
-         //   {
-         //       txtShow.Text = check[PopUp()];
-         //   }
-         //   else if (language == 2)
-         //   {
-         //       txtShow.Text = check[PopUp()];
-         //   }
-         //   else
-         //   {
-         //       txtShow.Text = korwords[PopUp()];
-         //   }
+           if (language == 1)
+            {
+                txtShow.Text = null;
+            }
+            else if (language == 2)
+            {
+                txtShow.Text = null;
+            }
+            else
+            {
+                txtShow.Text = null;
+            }
         }
         public word()
         {

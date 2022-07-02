@@ -146,7 +146,7 @@
             this.textShow.Name = "textShow";
             this.textShow.Size = new System.Drawing.Size(660, 43);
             this.textShow.TabIndex = 9;
-            this.textShow.TextChanged += new System.EventHandler(this.textShow_TextChanged);
+
             // 
             // textTyping
             // 
@@ -155,7 +155,6 @@
             this.textTyping.Name = "textTyping";
             this.textTyping.Size = new System.Drawing.Size(660, 43);
             this.textTyping.TabIndex = 10;
-            this.textTyping.TextChanged += new System.EventHandler(this.textTyping_TextChanged);
             // 
             // strings
             // 
