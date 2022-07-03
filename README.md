@@ -65,7 +65,6 @@
 ## Project4
 [project4](./Project4/game.png)
 ## Personal Project1
-진행전 만들어본 아키텍처1
 [PersonalProject1](./Personal%20Project%201/TypingTrainProgram.png)
 
 기본 구성
