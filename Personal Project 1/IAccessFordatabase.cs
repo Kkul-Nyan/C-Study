@@ -23,7 +23,7 @@ namespace Personal_Project_1
 
 
         public MySqlConnection Connect();
-        public void UseforTyping();
+        public List<PopupDatatable> UseData(string table, string content);
         public void Insert(string table, int cid, string content);
         public void Update(string table, int cid, string content);
         public void Delete(string table, int cid);

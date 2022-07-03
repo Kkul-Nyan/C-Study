@@ -39,7 +39,7 @@ namespace Personal_Project_1
             return conn;
         }
  
-        public void UseforTyping()
+        public List<PopupDatatable> UseData(string table, string content)
         {
             throw new NotImplementedException();
         }
