@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\Ch11\\Ch11.csproj": {}
+    "C:\\Users\\1302\\Desktop\\C-Study\\Ch11\\Ch11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\Ch11\\Ch11.csproj": {
+    "C:\\Users\\1302\\Desktop\\C-Study\\Ch11\\Ch11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\Ch11\\Ch11.csproj",
+        "projectUniqueName": "C:\\Users\\1302\\Desktop\\C-Study\\Ch11\\Ch11.csproj",
         "projectName": "Ch11",
-        "projectPath": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\Ch11\\Ch11.csproj",
-        "packagesPath": "C:\\Users\\zmxn5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\Ch11\\obj\\",
+        "projectPath": "C:\\Users\\1302\\Desktop\\C-Study\\Ch11\\Ch11.csproj",
+        "packagesPath": "C:\\Users\\1302\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1302\\Desktop\\C-Study\\Ch11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zmxn5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1302\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

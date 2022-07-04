@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zmxn5\\.nuget\\packages\\": {}
+    "C:\\Users\\1302\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\Project3\\Project3.csproj",
+      "projectUniqueName": "C:\\Users\\1302\\Desktop\\C-Study\\Project3\\Project3.csproj",
       "projectName": "Project3",
-      "projectPath": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\Project3\\Project3.csproj",
-      "packagesPath": "C:\\Users\\zmxn5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\C-Study\\Project3\\obj\\",
+      "projectPath": "C:\\Users\\1302\\Desktop\\C-Study\\Project3\\Project3.csproj",
+      "packagesPath": "C:\\Users\\1302\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1302\\Desktop\\C-Study\\Project3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zmxn5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1302\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

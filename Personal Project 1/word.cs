@@ -20,6 +20,9 @@ namespace Personal_Project_1
         int total = 0;
 
         List<string> tables = new List<string>();
+        List<string> contents = new List<string>();
+
+
 
         private int PopUp()
         {
@@ -28,6 +31,35 @@ namespace Personal_Project_1
         }
 
         BaseAccessForPlayer player = new BaseAccessForPlayer();
+
+       private void content()
+        {
+            MySqlConnection conn = player.Connect();
+            string a;
+            try
+            {
+                //데이터베이스 접속
+                conn.Open();
+                //Sql실행
+                MySqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = $"Select `contents` From {tables[no]} Where `cid` = '{PopUp()}' ";
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    a = reader[1].ToString();
+                    contents.Add(a);
+                }
+
+            }
+            catch (Exception except)
+            {
+                Console.WriteLine(except.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
         
         private void Reset()
         {
@@ -47,16 +79,17 @@ namespace Personal_Project_1
            if (no == 1)
             {
                 PopUp();
-                //테이블 0~테이블최대수중에 랜덤 난수 뽑음
-                //이제 no에 맞는 테이블을 끄집어 내서, popup숫자에 맞는   cid를 검색 해서 거기 맞는 단어를 검석해서  text박스에 꺼집어 내준다.
+
                 txtShow.Text = null;
             }
             else if (no == 2)
             {
+                PopUp();
                 txtShow.Text = null;
             }
             else
             {
+                PopUp();
                 txtShow.Text = null;
             }
         }
@@ -118,7 +151,7 @@ namespace Personal_Project_1
 
                 string label = txtTyping.Text.ToString();
                 string check1 = txtShow.Text.ToString();
-                if (language == 1)
+                if (no == 1)
                 {
                     if (label == check1)
                     {
@@ -138,7 +171,7 @@ namespace Personal_Project_1
                         label4.Text = "정확도 : " + (right * 100 / total) ;
                     }
                 }
-                else if (language == 2)
+                else if (no == 2)
                 {
                     if (label == check1)
                     {
