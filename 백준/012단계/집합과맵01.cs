@@ -8,7 +8,7 @@ namespace question
 {
     internal class 집합과맵01
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int T = int.Parse(Console.ReadLine());
 

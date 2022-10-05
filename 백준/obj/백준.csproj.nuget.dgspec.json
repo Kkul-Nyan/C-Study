@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeonghyeongi/Desktop/C-Study/백준/백준.csproj": {}
+    "C:\\Users\\zmxn5\\OneDrive\\Desktop\\GitProject\\C-Study\\백준\\백준.csproj": {}
   },
   "projects": {
-    "/Users/jeonghyeongi/Desktop/C-Study/백준/백준.csproj": {
+    "C:\\Users\\zmxn5\\OneDrive\\Desktop\\GitProject\\C-Study\\백준\\백준.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeonghyeongi/Desktop/C-Study/백준/백준.csproj",
+        "projectUniqueName": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\GitProject\\C-Study\\백준\\백준.csproj",
         "projectName": "백준",
-        "projectPath": "/Users/jeonghyeongi/Desktop/C-Study/백준/백준.csproj",
-        "packagesPath": "/Users/jeonghyeongi/.nuget/packages/",
-        "outputPath": "/Users/jeonghyeongi/Desktop/C-Study/백준/obj/",
+        "projectPath": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\GitProject\\C-Study\\백준\\백준.csproj",
+        "packagesPath": "C:\\Users\\zmxn5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zmxn5\\OneDrive\\Desktop\\GitProject\\C-Study\\백준\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeonghyeongi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\zmxn5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
