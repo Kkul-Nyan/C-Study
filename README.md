@@ -60,6 +60,7 @@
 [project1](./projecct1/projecct1.png)
 ## Project2
 [project2](./Project2/data.png)
+간단한 DB관리 프로그램
 ## Project3
 [project3](./Project3/dhahr.png)
 ## Project4
