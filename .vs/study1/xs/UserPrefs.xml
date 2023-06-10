@@ -1,4 +1,4 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{87817F5D-9ABC-4BAD-8DF6-69D5BABD36FA}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.백준 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ch02 PreferredExecutionTarget="MonoDevelop.Default" />
@@ -10,7 +10,11 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="study1" expanded="True">
-            <Node name="백준" selected="True" />
+            <Node name="백준" expanded="True">
+              <Node name="012단계" expanded="True">
+                <Node name="집합과맵01.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
